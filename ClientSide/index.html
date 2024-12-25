@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Cloud Messaging</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"
+    ></script>
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/9.0.0/firebase-messaging.js"
+    ></script>
+  </head>
+  <body>
+    <h1>Notification History</h1>
+    <div class="card">
+      <table id="notificationsTable">
+        <thead>
+          <tr>
+            <th>sent at</th>
+            <th>Notification</th>
+            <th>Data</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- notifiactions -->
+        </tbody>
+      </table>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
